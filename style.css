@@ -1,0 +1,234 @@
+/* estilo del body*/
+body {
+    width: 100%;
+    background-image: url("varios/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* estilos header en todos los HTML */
+
+.headercontainer {
+    width: 100%;
+    border: 1px solid black;
+    
+    
+}
+
+.banner {
+    width: 100%;
+    background-color: black;
+}
+
+.bannerstyle {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+/* estilo menú navegable*/
+                         /* FLEX PARA EL MENÚ*/
+#nav-container {
+    
+    margin-left: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+#nav-menu {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+#nav-menu li {
+    list-style: none;
+}
+
+.navimg {
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* estilo boton para ir al top*/
+#iralcielo {
+    padding: 0.5% 0.7%;
+    margin-left: 47.5%;
+    border: 0.2em dotted rgb(22, 115, 192);
+    color: rgb(16, 84, 129);
+    background-color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+/* estilos para el footer */
+
+.titlefooter {
+    width: 10%;
+    margin-left: 3%;
+}
+
+.redes-container { /* FLEX para redes*/
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.red1 {
+    margin-right: -10%;
+}
+
+.red2 {
+    margin-right: -10%;
+}
+
+.logoinsta {
+    width: 40%;
+}
+
+/* Index*/
+
+.titlesection {
+    width: 15%;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-top: 20px;
+    margin-right: 1525px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+/* estilo imgs */ 
+
+.trabDelMes-container {
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 75%;
+    height: 75%;
+}
+
+
+.imgIndex { /* por el momento lo voy a usar como base en los otros html  */
+    max-width: 95%;
+    box-shadow:  1px 1px rgba(0,0,0,0.15), 
+                2px 2px rgba(0,0,0,0.15), 
+                4px 4px rgba(0,0,0,0.15), 
+                8px 8px rgba(0,0,0,0.15);
+                
+}   
+
+/* iframe */
+                    /* FLEXBOX IFRAME*/
+.iframe-container {
+    width: 90%;
+    margin: 0% 5% 2% 5%;
+    display: flexbox;
+    justify-content: start;
+}
+
+.artEnAccIframe {
+    max-width: 50%;
+}
+
+/* estilos en galerías y comisionistas */
+
+.titlesite {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.imgGal {
+    max-width: 95%;
+    margin: 10px;
+    box-shadow:  1px 1px rgba(0,0,0,0.15), 
+                2px 2px rgba(0,0,0,0.15), 
+                4px 4px rgba(0,0,0,0.15), 
+                8px 8px rgba(0,0,0,0.15);
+} 
+/* Comisionistas*/
+
+.imgComi {
+    max-width: 95%;
+    margin: 10px;
+    box-shadow:  1px 1px rgba(0,0,0,0.15), 
+                2px 2px rgba(0,0,0,0.15), 
+                4px 4px rgba(0,0,0,0.15), 
+                8px 8px rgba(0,0,0,0.15);
+} 
+
+/* posicionamiento logos de contacto */
+.logoComiInsta {
+    margin-left: 6%;
+}
+
+.logoComiWs {
+    margin-left: 0.5%;
+}
+
+.comilogo {
+    width: 2%
+}
+
+.imglogocomi {
+    max-width: 95%;
+    margin: 10px;
+    box-shadow:  1px 1px rgba(0,0,0,0.15), 
+                2px 2px rgba(0,0,0,0.15), 
+                4px 4px rgba(0,0,0,0.15), 
+                8px 8px rgba(0,0,0,0.15);
+} 
+
+/* grid galerias */
+
+.galcontainer {
+    margin-left: 5%;
+    width: 75%;
+    height: 75%;
+}
+
+/* Transformaciones */
+
+.imgIndex:hover {
+    transform: scale(160%) translateX(15%);
+    transition: all 1.25s;
+}
+
+.imgGal:hover {
+    transform: scale(160%) translateX(15%);
+    transition: all 1.25s;
+}
+
+.navimg:hover {
+    transform: scale(120%);
+    transition: all 1s;
+}
+
+/* transformación en comisionistas  */
+.imgComi:hover {
+    transform: scale(213%) translateX(15%) translateY(26.5%);
+    transition: all 1.25s;
+}
+
+/* publicidad style*/
+.contenedor-publicidad {
+    width: 25%;
+    position: absolute;
+    right: 0;
+    top: 60%;
+    padding-left: 5%;
+}
+
+.img-aside {
+    width: 70%;
+}
+
